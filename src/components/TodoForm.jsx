@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 
 export const TodoForm = ({ addTodo }) => {
@@ -6,9 +8,11 @@ export const TodoForm = ({ addTodo }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    addTodo(value);
+    if (value !== "") {
+      addTodo(value);
 
-    setValue("");
+      setValue("");
+    }
   };
 
   return (
@@ -21,7 +25,7 @@ export const TodoForm = ({ addTodo }) => {
         onChange={(e) => setValue(e.target.value)}
       />
       <button type="submit" className="todo-btn">
-        Add Task
+        <FontAwesomeIcon icon={faPlus} beat />
       </button>
     </form>
   );

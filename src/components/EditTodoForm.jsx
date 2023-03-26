@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const EditTodoForm = ({ editTodo, task }) => {
   const [value, setValue] = useState(task.task);
@@ -21,7 +23,7 @@ export const EditTodoForm = ({ editTodo, task }) => {
         onChange={(e) => setValue(e.target.value)}
       />
       <button type="submit" className="todo-btn">
-        Update
+      <FontAwesomeIcon icon={faCheck} beat />
       </button>
     </form>
   );
