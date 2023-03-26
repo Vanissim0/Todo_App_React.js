@@ -68,9 +68,10 @@ h1 {
   background: #1f1317;
   color: #fff;
   border: none;
-  padding: 0.55rem;
+  width: 6rem;
+  padding: 0.58rem;
   cursor: pointer;
-
+  margin: 10px;
 }
 
 .Todo {
@@ -92,4 +93,11 @@ h1 {
 .completed {
   color: #d6aa7e;
   text-decoration: line-through red;
+}
+
+@media screen and (max-width: 480px) {
+.App {
+  max-width: 90%;
+  margin: auto;
+} 
 }
