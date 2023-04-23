@@ -26,7 +26,6 @@ export const TodoWrapper = () => {
       ...todos,
       { id: uuidv4(), task: todo, completed: false, isEdtitind: false },
     ]);
-    console.log(todos);
   };
 
   const toggleComplete = (id) => {
