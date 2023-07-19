@@ -1,7 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 
-import { TodoWrapper } from "./components/TodoWrapper";
-import { SettingsWrapper } from "./components/SettingsWrapper";
+import { TodoWrapper } from "./components/TodoWrapper/TodoWrapper";
+import { SettingsWrapper } from "./components/SettingsWrapper/SettingsWrapper";
 
 function App() {
   return (
