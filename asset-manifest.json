@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Solar_Todo/static/css/main.5bb87c3f.css",
+    "main.js": "/Solar_Todo/static/js/main.00fa3f1b.js",
+    "index.html": "/Solar_Todo/index.html",
+    "main.5bb87c3f.css.map": "/Solar_Todo/static/css/main.5bb87c3f.css.map",
+    "main.00fa3f1b.js.map": "/Solar_Todo/static/js/main.00fa3f1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bb87c3f.css",
+    "static/js/main.00fa3f1b.js"
+  ]
+}
